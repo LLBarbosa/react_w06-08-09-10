@@ -1,5 +1,5 @@
 import './Header.css';
-import logo from '../../_assets/images/logo.png';
+import logoGuitar from '../../_assets/images/logoGuitar.jpg';
 import { Link } from 'react-router-dom';
 
  function Header () {
@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
         <div className='fluid-container'>
             <nav className='container'>
                 <div className='logo'>
-                <span><img src={logo}/></span>
+                <span><img src={logoGuitar}/></span>
                </div>
                <ul>
                 <li><Link to={'/produtos'}>Guitarras</Link></li>
