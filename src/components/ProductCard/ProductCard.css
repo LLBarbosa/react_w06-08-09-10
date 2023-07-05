@@ -1,0 +1,57 @@
+.title-product {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.card-principal {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+    
+    
+   
+}
+.card-image {
+    background: #FFF;
+    width: 550px;
+    height: 300px;
+    margin-left: 20px;
+    
+}
+
+.card-description {
+    background: rgb(224, 247, 216);
+    width: 750px;
+    height: 300px;
+}
+
+.card-description-info {
+    margin-top: 10px;
+    margin-left: 60px;
+    background: rgb(224, 247, 216);
+    color: black;
+    width: 600px;
+    height: 100px;
+}
+
+.card-description-topics.ul {
+    background: grey;
+    width: 200px;
+    height: 100x;
+    color: black;
+
+
+}
+
+.icon li {
+    color: black;
+}
+
+
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+   
