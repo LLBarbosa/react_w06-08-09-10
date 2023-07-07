@@ -7,13 +7,13 @@ import Footer from "../../components/Footer/Footer";
 function ContactPage() {
     return (
         <>
-        <Header />
-        <Banner />
-        <ContactForm />
-        <ContactCard />
-        <Footer />
+            <Header />
+            <Banner />
+            <ContactForm />
+            <ContactCard />
+            <Footer />
         </>
-       
+
     )
 };
 

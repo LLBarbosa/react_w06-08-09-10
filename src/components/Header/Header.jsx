@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
  function Header () {
 
     return (
-        <div className='fluid-container'>
+        <div className='container-fluid'>
             <nav className='container'>
                 <div className='logo'>
                 <span><img src={logoGuitar}/></span>
                </div>
                <ul>
                 <li><Link to={'/produtos'}>Guitarras</Link></li>
-                <li><Link to={'/servicos'}>Serviços</Link></li>
+                <li><Link to={'*'}>Serviços</Link></li>
                 <li><Link to={'/contato'}>Contato</Link></li>
                </ul>
             </nav>

@@ -1,5 +1,6 @@
 import './Footer.css';
 import { BsFacebook, BsInstagram, BsYoutube } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 
 
@@ -28,9 +29,10 @@ function Footer () {
                 <div className='footer-03'>
                     <ul>
                         <p className='footer-title'>INFORMAÇÕES</p>
-                        <li><a href="/">Produtos</a></li>
-                        <li><a href="/">Contato</a></li>
-                        <li><a href="/">Termos e Condições</a></li>
+                        <li><Link to={'/produtos'}>Produtos</Link></li>
+                        <li><Link to={'/contato'}>Contato</Link></li>
+                        <li><Link to={'/'}>Termos e Condições</Link></li>
+                       
                     </ul>
                 </div>
             </div>

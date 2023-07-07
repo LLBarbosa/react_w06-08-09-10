@@ -1,10 +1,16 @@
+:root {
+
+    --color-primary: #0e99f0;
+    --color-background: rgb(0,0,0)
+}
+
 .footer-wrapper {
     margin: 0;
     padding: 0;
-    background-color: #0e99f0;
+    background-color: var(--color-primary);
 }
 .container-footer {
-    padding-top: 40px;
+    padding-top: 40px; 
     display: flex;
     justify-content:space-between;
     align-items: normal;
@@ -38,8 +44,7 @@ li {
 
 .footer-03 a{
     text-decoration: none;
-    color: black;
-
+    color:var(--color-background);
 }
 
 .footer-final {
