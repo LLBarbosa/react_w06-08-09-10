@@ -31,7 +31,7 @@ function Footer () {
                         <p className='footer-title'>INFORMAÇÕES</p>
                         <li><Link to={'/produtos'}>Produtos</Link></li>
                         <li><Link to={'/contato'}>Contato</Link></li>
-                        <li><Link to={'/'}>Termos e Condições</Link></li>
+                        <li><Link to={'/faq'}>FAQ</Link></li>
                        
                     </ul>
                 </div>
