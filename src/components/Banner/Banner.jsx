@@ -4,7 +4,7 @@ import React, { useContext } from 'react';
 import { BannerContext } from '../../contexts/BannerContext';
 
 
-function Banner ( ) {
+export const Banner = ( ) => {
 
     const { banner } = useContext(BannerContext)
  
@@ -24,7 +24,7 @@ function Banner ( ) {
 
 // };
 
-export default Banner;
+
 
 
 

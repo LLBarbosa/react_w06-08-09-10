@@ -15,3 +15,17 @@
     font-size: 50px;
    
 }
+
+#formulario {
+    border-radius: 8px;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+}
+
+.button-text {
+    font-weight: bold;
+}
+

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 
-function Footer () {
+export const Footer = () => {
     return (
         <footer className='footer-wrapper fluid-container'>
             <div className='container-footer container'>
@@ -43,6 +43,6 @@ function Footer () {
     )
 }
 
-export default Footer;
+
 
 

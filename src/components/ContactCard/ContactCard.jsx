@@ -1,5 +1,6 @@
 import './ContactCard.css';
-function ContactCard() {
+
+export const ContactCard = () => {
     return (
 
         <>
@@ -36,8 +37,6 @@ function ContactCard() {
     )
 
 }
-
-export default ContactCard;
 
 
 

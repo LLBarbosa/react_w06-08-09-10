@@ -1,11 +1,11 @@
 import './ProductCard.css';
-import Button from '../Button/Button';
+import { Button } from '../Button/Button';
 import logoGuitarGibson from '../../_assets/images/logoGuitarGibson.jpg';
 import { FaStar } from 'react-icons/fa';
 import PropTypes from 'prop-types';
 
 
-function ProductCard (props)  {
+export const ProductCard = (props) => {
   return (
     <div className='card-principal'>
       <div className='card-image'>
@@ -54,6 +54,6 @@ ProductCard.propTypes = {
   id: PropTypes.number.isRequired,
 }
 
-export default ProductCard;
+
 
 

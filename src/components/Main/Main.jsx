@@ -1,7 +1,7 @@
-import ProductCard from '../ProductCard/ProductCard';
+import { ProductCard } from '../ProductCard/ProductCard';
 
 
-function Main () {
+export const  Main = () => {
     const data1 = ['Corpo/braço em mogno (mahogany)', '02 Captadores Humbuckers', 'Escala em pau-ferro', 'Cor: sunburst ']
 
 
@@ -17,4 +17,3 @@ function Main () {
 };
 
 
-export default Main;

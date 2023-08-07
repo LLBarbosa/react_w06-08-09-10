@@ -1,6 +1,6 @@
 import './Faq.css';
 
-function Faq () {
+export const Faq = () => {
     return (
         <>
             <div className=" banner container">
@@ -13,4 +13,4 @@ function Faq () {
         </>
     )
 };
- export default Faq;
+ 

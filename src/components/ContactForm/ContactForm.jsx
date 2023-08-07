@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import './ContactForm.css';
 
-const ContactForm = () => {
+export const ContactForm = () => {
 
     const  [formData, setFormData] = useState({
         nome: '',
@@ -48,7 +48,7 @@ const ContactForm = () => {
 
             <section className="contato-formulario" aria-label="Formulário">
               <h2 className='text-contact'>Deixe o seu recado<span className='point-decoration'>:</span></h2>
-               <div className='container border border-primary my-5'>
+               <div className='container border border-primary my-5' id="formulario">
                 <form className=""  onSubmit={handleSubmit}>
                     <div className="row">
                     <div className="my-3 col">
@@ -57,7 +57,7 @@ const ContactForm = () => {
                     
                     </div>
                     
-                    <div className="my-3 col">
+                    <div className="my-3 col" id="formulario">
                         <label className='form-label' htmlFor="telefone">Telefone</label>
                         <input className='form-control' type="number" id="telefone" name="telefone" placeholder="Seu telefone..." onInput={handleInput}/>
                     </div>
@@ -77,7 +77,7 @@ const ContactForm = () => {
                         <textarea className="form-control"  id="mensagem" name="mensagem" placeholder="Digite a sua mensagem..." onInput={handleInput}></textarea>
                     </div>
 
-                    <button className="btn btn-primary button">Enviar Mensagem</button>
+                    <button className="btn btn-primary button center"><span className='button-text'>Enviar</span></button>
 
                 </form>
                 </div>
@@ -88,4 +88,3 @@ const ContactForm = () => {
     )
 }
 
-export default ContactForm;

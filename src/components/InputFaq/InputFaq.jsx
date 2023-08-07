@@ -1,4 +1,4 @@
-function InputFaq () {
+export const  InputFaq = () => {
     return (
         <>
         <div className="container-fluid d-flex">
@@ -14,4 +14,3 @@ function InputFaq () {
     )
 };
 
-export default InputFaq;

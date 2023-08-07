@@ -1,6 +1,6 @@
 import './Button.css';
 
-function Button () {
+export const Button = () => {
     return (
       
 
@@ -13,7 +13,7 @@ function Button () {
     )
 };
 
-export default Button;
+
 
 
 
