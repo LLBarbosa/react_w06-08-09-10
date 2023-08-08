@@ -12,6 +12,7 @@ export const Header = () => {
                         <span><img src={logoGuitar} /></span>
                     </div>
                     <ul>
+                        <li><Link to={'/index'}>Home</Link></li>
                         <li><Link to={'/produtos'}>Produtos</Link></li>
                         <li><Link to={''}>Serviços</Link></li>
                         <li><Link to={'/contato'}>Contato</Link></li>

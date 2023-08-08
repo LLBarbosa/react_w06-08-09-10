@@ -55,4 +55,11 @@ figure img {
     width: 100%;
     height: auto;
 }
-   
+
+
+.button-info {
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}

@@ -3,16 +3,16 @@ import PropTypes from "prop-types";
 
 export const BannerContext = createContext({
     banner: {
-        text1: '',
-        text2: '',
+        title: '',
+        subtitle: '',
     },
     setBanner: () => {},
 });
 
 export function BannerProvider ({ children }) {
     const [banner, setBanner] = useState({
-        text1: 'os melhores instrumentos',
-        text2: 'os melhores sons.',
+        title: 'Os melhores instrumentos',
+        subtitle: 'Os melhores sons',
     });
 
    
